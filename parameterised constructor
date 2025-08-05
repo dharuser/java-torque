@@ -1,0 +1,21 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Box {
+    double w, h, d;
+
+    Box(int a,int b,int c) {
+        System.out.println("This is constructor");
+        w = a;
+        h = b;
+        d = c;
+        System.out.println("The value of w, h, d are: " + w + ", " + h + ", " + d);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Box mybox = new Box(5,10,15); // Create object of Box
+        
+    }
+}
