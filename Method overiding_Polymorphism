@@ -1,0 +1,29 @@
+package class_work;
+
+class B
+{
+	public void get()
+	{
+		System.out.println("this is superclass");
+	
+	}
+}
+class C extends B
+{
+	@Override
+	public void get()
+	{
+		System.out.println("this is subclass");
+	}
+}
+public class z {
+
+	public static void main(String[] args)
+	{
+		B obj = new C();
+		obj.get();
+		// TODO Auto-generated method stub
+
+	}
+
+}
