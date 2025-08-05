@@ -1,0 +1,28 @@
+class student
+{
+    String name,department;
+    int registerno;
+    char section;
+    void print()
+    {
+        System.out.println("Enter your name:"+name);
+        System.out.println("Enter your department:"+department);
+        System.out.println("Enter your register no:"+registerno);
+        System.out.println("Enter your section:"+section);
+    }
+    
+        
+}
+public class Main
+{
+	public static void main(String[] args)
+	{
+		student obj = new student();
+		obj.name="Amudieshwar";
+		obj.department="AIDS";
+		obj.registerno=18;
+		obj.section='A';
+		obj.print();
+		
+	}
+}
