@@ -1,0 +1,34 @@
+class A
+{
+	int a;
+	String name,s;
+	void set(int a)
+	{
+		this.a=a;
+		System.out.println("The value of a is"+a);
+		
+	}
+	void set(int a,String name)
+	{
+		this.a=a;
+		this.name=name;
+		System.out.println("The vale of a is"+a+"name is"+name);
+	}
+	void set(String name,String s) {
+		this.name=name;
+		this.s=s;
+		System.out.println("The value of name"+name+"is"+s);
+	}
+	
+}
+public class dog {
+
+	public static void main(String[] args)
+	{
+		A obj = new A();
+		obj.set("same","vel");
+		obj.set(9,"vel");
+		obj.set(8);
+	}
+
+}
