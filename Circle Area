@@ -1,0 +1,19 @@
+class Area
+{
+    int radius;
+    double area;
+    void multiplication()
+    {
+        area = 3.14*radius*radius;
+        System.out.println("Enter the radius"+radius);
+        System.out.println("Enter the area"+area);
+    }
+}
+class Main {
+    public static void main(String[] args) 
+    {
+        Area obj = new Area();
+        obj.radius = 7;
+        obj.multiplication();
+    }
+}
